@@ -3,8 +3,8 @@
   "short_name": "Operações Arena",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f3f3f1",
-  "theme_color": "#4f5257",
+  "background_color": "#f6f5f3",
+  "theme_color": "#a10f12",
   "lang": "pt-BR",
   "icons": [
     { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
