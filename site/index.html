@@ -120,7 +120,7 @@ main { padding: 2rem 0.75rem 1rem; display: flex; flex-direction: column; gap: 1
 
 .grid { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.75rem; grid-template-columns: minmax(0, 1fr); }
 @media (min-width: 641px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-.tip-li { grid-column: 1 / -1; }
+.tip-li { grid-column: auto; }
 
 .tool {
   min-width: 0; height: 100%; min-height: 15rem;
@@ -192,7 +192,7 @@ footer { text-align: center; font-size: 0.75rem; color: var(--ink-soft); padding
   <main>
     <div class="sec-head">
       <span class="eyebrow">Ferramentas</span>
-      <span class="count">4 sistemas</span>
+      <span class="count">5 sistemas</span>
     </div>
     <ul class="grid">
       <li class="rc-rise" style="transition-delay:100ms"><a class="tool" href="https://credenciamento-staging.agumlabs.tech" target="_blank" rel="noopener">
@@ -228,7 +228,16 @@ footer { text-align: center; font-size: 0.75rem; color: var(--ink-soft); padding
         <p class="tool-desc">Montagem padrão de acessos, grades e sinalização antes de cada show.</p>
         <div class="tool-foot"><span class="tool-host">checklist.agumlabs.tech</span><span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
       </a></li>
-      <li class="rc-rise tip-li" style="transition-delay:420ms"><div class="tip">
+      <li class="rc-rise" style="transition-delay:420ms"><a class="tool" href="https://salasemordem.agumlabs.tech" target="_blank" rel="noopener">
+        <div class="tool-top">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M6 21V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v17"/><path d="m9.5 12 2 2 3.5-3.5"/></svg></span>
+          <span class="pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>Precisa de login</span>
+        </div>
+        <h2 class="tool-name">Salas em Ordem</h2>
+        <p class="tool-desc">Conferência das salas de produção e camarins depois de cada evento.</p>
+        <div class="tool-foot"><span class="tool-host">salasemordem.agumlabs.tech</span><span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+      </a></li>
+      <li class="rc-rise tip-li" style="transition-delay:500ms"><div class="tip">
         <span class="eyebrow">Dica</span>
         <h2>Salve no celular</h2>
         <ol>
